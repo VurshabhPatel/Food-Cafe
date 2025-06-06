@@ -12,9 +12,9 @@
 
 // Array of image sources
 const foodImages = [
-    "/food.jpg",
-    "/food 2.jpg",
-    "/food 3.jpg",
+    "food.jpg",
+    "food 2.jpg",
+    "food 3.jpg",
     
 ];
 
@@ -46,9 +46,9 @@ function chngImgclick(buttonType) {
     
     // Define image paths for each button
     const imagePaths = {
-        'home': '/nature.jpg',
-        'service': '/nature 2.jpg',
-        'contact': '/nature 3.jpg'
+        'home': 'nature.jpg',
+        'service': 'nature 2.jpg',
+        'contact': 'nature 3.jpg'
     };
     
     // Change image based on which button was clicked
