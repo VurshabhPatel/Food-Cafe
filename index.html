@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+<body>
+    
+    <div class="header">
+        <div class="left">
+            <li>Follow On:</li>
+            <p><i class="fa-brands fa-facebook-f"></i></p>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+
+        </div>
+
+        <div class="center">food cafe</div>
+
+        <div class="right">
+            <li class="options">
+                <i class="fa-solid fa-earth-asia"></i>
+
+                <select name="language" id="" >
+
+                    <option value="">English</option>
+                    <option value="">Italian</option>
+                    <option value="">French</option>
+                    <option value="">Spanish</option>
+                    <option value="">Poland</option>
+                    <option value="">German</option>
+                </select>
+            </li>
+
+            <li>login</li>
+        
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <div class="sub-header">
+        <li class="sub-list" id="a" onclick="showList()"> home
+
+           <ul class="sublistOne" id="show" style="display: none;">
+
+                <li>home1</li>
+                <li>home2</li>
+                <li>home3</li>
+           </ul>
+        </li>
+
+        <li>about us</li>
+        <li>services</li>
+        <li>gallery</li>
+        <li>contact us</li>
+    </div>
+
+
+    <div class="foodType">
+        <div class="image-container">
+            <img src="/food 3.jpg" alt="" id="foodType">
+        </div>
+
+
+        <button class="btnLeft" on><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="btnRight"><i class="fa-solid fa-chevron-right"></i></button>
+        
+
+
+    </div>
+
+
+
+   <div class="btns3Img">
+        <div class="threeButtons">
+
+            <li class="3leftbtn" onclick="chngImgclick('home')" >Home</li>
+            <li class="3centerbtn" onclick="chngImgclick('service')">Service</li>
+            <li class="3rightbtn" onclick="chngImgclick('contact')"  >Contact</li>
+        </div>
+
+        <div class="threeImages">
+
+            <img src="/nature 2.jpg" alt="" id="photo">
+        </div>
+   </div>
+
+
+
+
+
+
+</body>
+
+
+<script src="/index.js">
+
+</script>
+
+</html>
